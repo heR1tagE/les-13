@@ -1,0 +1,39 @@
+.square {
+    stroke: #FF5733;
+    stroke-width: 5px;
+    fill: #FFC300;
+  }
+
+  .rectangle {
+    stroke: #C70039;
+    stroke-width: 5px;
+    fill: #DAF7A6;
+  }
+
+  .circle {
+    stroke: #900C3F;
+    stroke-width: 5px;
+    fill: #581845;
+  }
+
+  .ellipse {
+    stroke: #1C2833;
+    stroke-width: 5px;
+    fill: #AED6F1;
+  }
+
+  /* Анімація */
+  .animate-circle {
+    animation: colorChange 2s infinite alternate;
+  }
+
+  @keyframes colorChange {
+    0% {
+      stroke: #900C3F;
+      fill: #581845;
+    }
+    100% {
+      stroke: #FFC300;
+      fill: #FF5733;
+    }
+  }
